@@ -11,6 +11,7 @@ int locateCharacter(char *s, char c){
 }
 int main(int argc, char **argv)
 {
+ // pay attention to the use of '' which is used to wrap up a char
  printf("%i\n", locateCharacter("adbc", 'c'));
  return 0; 
 }
