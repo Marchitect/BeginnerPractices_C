@@ -11,11 +11,11 @@ int main(int argc, char **argv)
  printf("%i\n", individual01);
  printf("%x\n", i_p);
  printf("%i\n", i_p);
+
+ int intArray[5];
+ intArray[1]=1;
+ printf("%d\n", intArray[1]);
+ *(intArray+1)=2;
+ printf("%d\n", intArray[1]);
  return 0; 
 }
-// output:
-//
-// 6
-// 10
-// 57dcbbfc
-// logout
